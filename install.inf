@@ -1,0 +1,29 @@
+[info]
+title=Cursor_History
+desc=Some description
+type=cudatext-plugin
+subdir=cuda_curshist
+homepage=
+
+[item1]
+section=commands
+caption=CursorHistory run
+method=run
+
+[item2]
+section=events
+events=on_caret
+
+[item3]
+section=commands
+caption=CursorHistory move_backward
+method=move_backward
+
+[item4]
+section=commands
+caption=CursorHistory move_forward
+method=move_forward
+
+[item5]
+section=events
+events=on_close
